@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  max-width: 130rem;
+  background-color: rgb(18, 18, 18);
+}
+
+.guide {
+  position: fixed;
+  margin-right: 3.5rem;
+  color: white;
+  background-color: #1a1a1a;
+  width: 4rem;
+  height: 100%;
+  margin-top: 3.5rem;
+}
+
+.detail {
+  flex: 1 1 70%;
+}
+
+.list {
+  flex: 1 1 30%;
+}
+
+@media screen and (max-width: 64rem) {
+  .content {
+    flex-direction: column;
+  }
+}
